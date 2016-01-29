@@ -1,0 +1,17 @@
+int pow(int n, int t) {
+  int res;
+  if (t == 1)
+    res = n;
+  else {
+      res = pow(n, t-1);
+      if (t == 2)
+        print_str("hi\n");
+      res = res * n;
+  }
+  return res;
+}
+
+int a;
+
+a = pow(2,8);
+print_int(a);
