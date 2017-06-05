@@ -27,12 +27,7 @@ You should only modify eval.ml.
 Use the makefile to compile the project (run "make all"), then run
 "./main [cf-file]".
 
-You will be penalized in grading if we can't interpret a file "file.cf" by doing
-"make all && ./main file.cf" so don't change that. For each input file provided,
-the output of your interpreter should EXACTLY match the output file provided.
-There SHOULD NOT EVEN BE DIFFERENCES IN TERMS OF WHITE SPACE.
-
-We have provided a testing script, which will provide an estimate for your
-grade. Simply run "python test.py" in the project directory.
+Provided is testing script, which will provide a score (out of 135). 
+Simply run "python test.py" in the project directory.
 
 
